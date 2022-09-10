@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu|Lora">
+	<title>91bytes</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css?version=1.0">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<div class="logo-container">
+				<img src="images/logo.png" class="logo">
+				<h1>Bellefit</h1>
+			</div>
+			<div class="form">
+				<form method="post" id="signup-form">
+					<h2>Create Account</h2>
+					<div class="input-container">
+						<span class="fas fa-user-circle"></span>
+						<input type="text" name="name" placeholder="Full Name">
+					</div>
+					<div class="input-container">
+						<span class="fas fa-at"></span>
+						<input type="email" name="email" placeholder="Email address">
+					</div>
+					<div class="input-container">
+						<span class="fas fa-lock"></span>
+						<input type="password" name="password" placeholder="Password">
+						<span class="fa fa-eye toggle-password"></span>
+					</div>
+					<div class="checkbox-container">
+						<input type="checkbox" name="agree" value="agree">
+						<span>I agree with <a>Terms</a> and <a>Privacy</a></span>
+					</div>
+					<div class="button-container">
+						<button type="submit" name="signup" class="button">SIGN UP</button>
+					</div>
+					<div class="error-msg"></div>
+					<div class="success-msg"></div>
+					<input type="hidden" name="signup" value="signup">
+				</form>
+			</div>
+		</div>
+		<div class="image-container">
+			<img src="images/girl-doing-yoga.png" class="yoga">
+		</div>
+	</div>
+	<script type="text/javascript" src="js/script.js?version=1.0"></script>
+</body>
+</html>
